@@ -15,35 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\source\main.cpp">
+    <ClCompile Include="..\..\source\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="..\source\Res.rc">
+    <ResourceCompile Include="..\..\source\res.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\source\res.h">
+    <ClInclude Include="..\..\source\res.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\source\main.h">
+    <ClInclude Include="..\..\source\main.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="..\source\bitmap1.bmp">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\source\bitmap2.bmp">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="k,NjM2MzY2MjQsNDU1MjIxMDg=,f,rysunek.bmp">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\source\k,NjM2MzY2MjQsNDU1MjIxMDg=,f,rysunek.bmp">
-      <Filter>Resource Files</Filter>
-    </Image>
   </ItemGroup>
 </Project>

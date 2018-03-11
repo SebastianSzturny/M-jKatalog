@@ -75,6 +75,12 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>$(SolutionDir)\..\bin</OutDir>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)\..\bin</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)\..\bin</OutDir>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -119,10 +125,17 @@
     <ClCompile Include="..\source\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\source\main.h" />
     <ClInclude Include="..\source\res.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="..\source\Res.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\source\bitmap1.bmp" />
+    <Image Include="..\source\bitmap2.bmp" />
+    <Image Include="..\source\k,NjM2MzY2MjQsNDU1MjIxMDg=,f,rysunek.bmp" />
+    <Image Include="k,NjM2MzY2MjQsNDU1MjIxMDg=,f,rysunek.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
